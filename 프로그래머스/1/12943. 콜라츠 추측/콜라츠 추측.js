@@ -6,9 +6,6 @@ function solution(num) {
 }
 
 function calc(num, cnt){
-    if(num == 1 && cnt == 1){
-        return 1;
-    }
     
     if(cnt >= 500){
         return -1;
